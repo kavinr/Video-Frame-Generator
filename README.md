@@ -6,3 +6,5 @@ The vga_example.v is the top level design and contains a simple test pattern tha
 vga_timing.v is the actual IP.
 
 The testbench instantiates a tiff_writer which outputs a single frame of video after the simulation is run. Helps debugging.  
+
+This design is targeted towards Basys™3 Artix-7 FPGA Board.
